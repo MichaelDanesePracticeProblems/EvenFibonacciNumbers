@@ -7,9 +7,9 @@ namespace EvenFibonacciNumbers
     {//By considering the terms in the Fibonacci sequence whose values do not exceed four million, this will find the sum of the even-valued terms.
         static void Main(string[] args)
         {
-            int[] sequence = { 1, 2, 3 };//I used an array however you could just as easily use variables. THe Fibonacci Sequence takes the previous two terms and adds them together to make the next term.
+            int[] sequence = { 1, 1, 2 };//I used an array however you could just as easily use variables. The Fibonacci Sequence takes the previous two terms and adds them together to make the next term.
             int nextValue = 0;
-            int evenSum = 2;
+            int evenSum = 0;
             while (sequence[2] < 4000000 )
             {
                 if (sequence[2] % 2 == 0)
